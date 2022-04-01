@@ -1,0 +1,133 @@
+                                     .simple {
+                                         background-image: url(../../img/round.svg);
+                                         padding: 140px 0;
+                                         background-repeat: no-repeat;
+                                         background-size: 679px;
+                                         background-position: calc(50% + 574px);
+                                     }
+                                     
+                                     .simple__simple-wrapper {
+                                         display: flex;
+                                         align-items: center;
+                                     }
+                                     
+                                     .simple__simple-inner {
+                                         width: 445px;
+                                     }
+                                     
+                                     .simple__simple-heading {
+                                         font-family: 'DM Serif Display';
+                                         font-style: normal;
+                                         font-weight: 400;
+                                         font-size: 48px;
+                                         line-height: 56px;
+                                         margin: 0;
+                                         letter-spacing: -0.369231px;
+                                         color: rgb(54, 83, 107);
+                                     }
+                                     
+                                     .simple__simple-text {
+                                         font-weight: 400;
+                                         font-size: 15px;
+                                         line-height: 28px;
+                                         margin: 0;
+                                         color: rgb(108, 130, 148);
+                                     }
+                                     
+                                     .simple__simple-inner-div {
+                                         display: flex;
+                                     }
+                                     
+                                     .simple-inner__simple-img {
+                                         display: inline-block;
+                                         margin-left: 40px;
+                                     }
+                                     
+                                     @media only screen and (max-width: 768px) {
+                                         .simple {
+                                             background-image: none;
+                                         }
+                                         .simple__simple-wrapper {
+                                             flex-direction: column-reverse;
+                                         }
+                                         .simple__simple-inner {
+                                             width: fit-content;
+                                             text-align: center;
+                                         }
+                                     }
+                                     
+                                     @media only screen and (max-width: 700px) {
+                                         .sidebar {
+                                             flex-direction: column;
+                                         }
+                                         .sidebar__heading {
+                                             padding-left: 38px;
+                                             padding-bottom: 20px;
+                                         }
+                                     }
+                                     
+                                     @media only screen and (max-width:680px) {
+                                         .pricing__hero {
+                                             text-align: center;
+                                         }
+                                         .pricing__list {
+                                             flex-direction: column;
+                                             display: flex;
+                                             align-items: center;
+                                             justify-content: space-between;
+                                         }
+                                         .pricing__mini-list-1 .pricing__mini-item:nth-child(1),
+                                         .pricing__mini-list-1 .pricing__mini-item:nth-child(2),
+                                         .pricing__mini-list-1 .pricing__mini-item:nth-child(3) {
+                                             padding-left: 129px;
+                                         }
+                                         .pricing__mini-list-2 .pricing__mini-item:nth-child(1),
+                                         .pricing__mini-list-2 .pricing__mini-item:nth-child(2),
+                                         .pricing__mini-list-2 .pricing__mini-item:nth-child(3),
+                                         .pricing__mini-list-2 .pricing__mini-item:nth-child(4),
+                                         .pricing__mini-list-2 .pricing__mini-item:nth-child(5) {
+                                             padding-left: 136px;
+                                         }
+                                         .pricing__mini-item-text {
+                                             margin: 0;
+                                             margin-left: 10px;
+                                             font-size: 16px;
+                                             line-height: 28px;
+                                         }
+                                         * {
+                                             -webkit-box-sizing: border-box;
+                                             box-sizing: border-box;
+                                         }
+                                         таблица стилей агента пользователя p {
+                                             display: block;
+                                             margin-block-start: 1em;
+                                             margin-block-end: 1em;
+                                             margin-inline-start: 0px;
+                                             margin-inline-end: 0px;
+                                         }
+                                         .pricing__mini-list-3 .pricing__mini-item:nth-child(1),
+                                         .pricing__mini-list-3 .pricing__mini-item:nth-child(2),
+                                         .pricing__mini-list-3 .pricing__mini-item:nth-child(3),
+                                         .pricing__mini-list-3 .pricing__mini-item:nth-child(4),
+                                         .pricing__mini-list-3 .pricing__mini-item:nth-child(5),
+                                         .pricing__mini-list-3 .pricing__mini-item:nth-child(6),
+                                         .pricing__mini-list-3 .pricing__mini-item:nth-child(7) {
+                                             padding-left: 140px;
+                                         }
+                                         @media only screen and (max-width: 650px) {
+                                             .sidebar__heading {
+                                                 margin-bottom: 40px;
+                                             }
+                                         }
+                                         @media only screen and (max-width: 645px) {
+                                             .contact-form {
+                                                 margin: 0;
+                                             }
+                                             .conact-form__btn {
+                                                 left: 23px;
+                                                 width: 303px;
+                                                 top: 12px;
+                                                 display: block;
+                                             }
+                                         }
+                                     }

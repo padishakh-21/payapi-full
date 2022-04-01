@@ -1,0 +1,17 @@
+.sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 96px;
+    padding-bottom: 84px;
+}
+
+.sidebar__heading {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+    letter-spacing: -0.369231px;
+    color: rgb(54, 83, 107);
+}

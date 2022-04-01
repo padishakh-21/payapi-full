@@ -1,0 +1,103 @@
+.section-hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-hero__heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    max-width: 564px;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -0.553846px;
+    color: rgb(54, 83, 107);
+}
+
+.contact-form {
+    margin-left: 10px;
+}
+
+.contact-form__email {
+    width: 310px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(251, 252, 254);
+    color: rgb(54, 83, 107);
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    padding-top: 18px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+}
+
+.contact-form__btn {
+    display: inline-block;
+    position: relative;
+    left: -40px;
+    padding-top: 18px;
+    padding-right: 24px;
+    padding-left: 26px;
+    padding-bottom: 16px;
+    background: rgb(186, 66, 112);
+    color: rgb(251, 252, 254);
+    line-height: 18px;
+    letter-spacing: -0.115385px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form__btn:active {
+    background: rgb(218, 109, 151);
+}
+
+.contact-form__label {
+    display: block;
+    font-size: 16px;
+    color: rgb(108, 130, 148);
+    margin-top: 13px;
+    margin-left: 25px;
+}
+
+.contact__label--bold {
+    font-weight: 700;
+}
+
+.section-hero__img {
+    width: 303px;
+    height: 500px;
+}
+
+// @media only screen and (max-width: 860px) {
+//     .contact-form__btn {
+//         margin-left: 10px;
+//     }
+// }
+@media only screen and (max-width: 768px) {
+    .section-hero__wrapper {
+        flex-direction: column-reverse;
+    }
+    .section-hero__heading {
+        width: 475px;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.30px;
+        margin-bottom: 25px;
+        margin-left: 45px;
+    }
+    .contact-form {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .contact-form__email {
+        margin-left: 20px;
+    }
+    .contact-form__label {
+        padding-top: 15px;
+    }
+}

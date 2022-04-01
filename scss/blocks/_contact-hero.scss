@@ -1,0 +1,146 @@
+.contact-hero__heading {
+    font-family: 'DM Serif Display';
+    max-width: 730px;
+    margin-top: 82px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.430769px;
+    color: rgb(54, 83, 107);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 545px;
+}
+
+.input input {
+    padding: 17px;
+    margin-bottom: 15px;
+    letter-spacing: -0.115385px;
+    color: rgb(54, 83, 107);
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #36536B;
+}
+
+input::placeholder {
+    color: #36536B;
+    opacity: 0.5;
+}
+
+.input input:hover {
+    border-bottom: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+.input input:active {
+    border-bottom: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    opacity: 0.5;
+}
+
+#input_text {
+    padding-bottom: 60px;
+}
+
+.contact-hero__hero-wrapper {
+    display: flex;
+}
+
+.hero-inner__heading-2 {
+    font-family: 'DM Serif Display';
+    max-width: 445px;
+    font-style: normal;
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.184615px;
+    color: rgb(54, 83, 107);
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+.contact-hero__hero-inner {
+    margin-top: 110px;
+    margin-left: 124px;
+}
+
+.hero-inner__hero-list {
+    width: 536px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.hero-inner__hero-item {
+    padding-bottom: 24px;
+}
+
+.input_btn {
+    width: 152px;
+    padding: 13px 30px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid rgb(54, 83, 107);
+    box-sizing: border-box;
+    letter-spacing: -0.115385px;
+    border-radius: 24px;
+    background-color: rgb(237, 243, 248);
+    color: rgb(0, 64, 71);
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.input_btn:hover {
+    background-color: rgb(54, 83, 107);
+    color: rgb(255, 255, 255);
+}
+
+.input_btn:active {
+    opacity: .6;
+}
+
+.hero__list {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 53px;
+    padding: 0;
+}
+
+.hero__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__item-hero-heading {
+    font-family: 'DM Serif Display';
+    width: 255px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.246154px;
+    color: rgb(54, 83, 107);
+}
+
+.hero__item-hero__text {
+    width: 635px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgb(108, 130, 148);
+}

@@ -1,0 +1,56 @@
+.implement__implement-wrapper {
+    display: flex;
+    padding-top: 125px;
+}
+
+.implement__implement-img {
+    display: block;
+    width: 445px;
+    height: 284px;
+}
+
+.implement__implement-inner {
+    width: 445px;
+    margin-left: 50px;
+}
+
+.implement__heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    margin: 0;
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: rgb(54, 83, 107);
+}
+
+.implement__implement-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgb(108, 130, 148);
+}
+
+@media only screen and (max-width: 768px) {
+    .implement__implement-wrapper {
+        flex-direction: column;
+        padding: 70px;
+    }
+    .implement__implement-inner {
+        margin: -87px;
+        margin-left: -90px;
+        width: fit-content;
+        text-align: center;
+    }
+    .implement__implement-img {
+        margin-left: 87px;
+    }
+}
+
+@media only screen and (max-width: 678px) {
+    .implement__implement-img {
+        margin-left: 33px;
+    }
+}

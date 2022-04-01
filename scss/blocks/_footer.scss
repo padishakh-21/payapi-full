@@ -1,0 +1,116 @@
+.site-footer {
+    background-image: url(../../img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 29px;
+    padding-bottom: 23px;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.footer__item {
+    margin-right: 40px;
+}
+
+.footer-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    mix-blend-mode: normal;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.guardian-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.guardian-item {
+    margin-right: 25px;
+}
+
+@media only screen and (max-width: 680px) {
+    .contact-form__btn {
+        display: block;
+        left: 21px;
+        top: 16px;
+        width: 310px;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-inner {
+        flex-direction: column;
+    }
+    .footer__list {
+        flex-direction: column;
+        margin-left: 47px;
+        padding: 0;
+    }
+    .footer__item {
+        margin-bottom: 10px;
+    }
+    .guardian-list {
+        margin-left: 33px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero__item {
+        display: block;
+        text-align: center;
+        padding-left: 17px;
+    }
+    .hero__item-hero-heading {
+        margin: 0;
+        margin-left: 109px;
+    }
+    .hero__item-hero__text {
+        width: 465px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 496px) {
+    .hero__item-hero-heading {
+        margin-left: 82px;
+    }
+    .hero__item-hero__text {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .hero__item-hero-heading {
+        margin-left: 54px;
+    }
+}
