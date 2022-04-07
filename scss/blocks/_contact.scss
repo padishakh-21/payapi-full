@@ -17,3 +17,19 @@
     letter-spacing: -0.430769px;
     color: rgb(54, 83, 107);
 }
+
+@media only screen and (max-width: 1140px) {
+    .contact-hero__hero-wrapper {
+        flex-flow: column;
+        align-items: center;
+    }
+    .contact-hero__hero-inner {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:680px) {
+    .contact-hero__hero-inner {
+        margin-left: 0;
+    }
+}

@@ -765,6 +765,21 @@ body {
   color: #36536b;
 }
 
+@media only screen and (max-width: 1140px) {
+  .contact-hero__hero-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-hero__hero-inner {
+    margin-left: 0;
+  }
+}
+
 .contact-hero__heading {
   font-family: 'DM Serif Display';
   max-width: 730px;
